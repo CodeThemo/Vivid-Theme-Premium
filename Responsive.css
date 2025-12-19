@@ -1,4 +1,5 @@
-/* ---------------- Responsive Styling ----------------- */
+/* ==================== Responsive CSS ==================== */
+
 
 /* 1200px - large laptops & Destops */
 @media (max-width: 1200px) {
@@ -280,7 +281,7 @@
         bottom: 100px;
     }
 
-    #VividHeaderSlider .slider-left h4 {
+    #VividHeaderSlider .slider-left h1 {
         font-size: 12px;
         padding: 5px 12px;
     }
@@ -766,89 +767,6 @@
         height: 20px;
     }
 
-    /*-------------------Products--------------------*/
-
-    .vivid-post-homepage-view {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        gap: 12px;
-    }
-
-    .vivid-post-homepage-view .hentry {
-        height: 310px;
-    }
-
-    .vivid-homepage-main-slider,
-    .vivid-homepage-main-slider .swiper-wrapper,
-    .vivid-homepage-main-slider .swiper-slide {
-        height: 220px;
-    }
-
-    .vivid-post-homepage-view .vivid-variants-container .group-2 span {
-        padding: 2px 4px;
-        font-size: 5px;
-        height: 10px;
-    }
-
-    .vivid-post-homepage-view .vivid-variants-container .clear-btn {
-        height: 12px;
-        width: 34px;
-        font-size: 6px;
-    }
-
-    .vivid-post-homepage-view .product-title {
-        margin: 5px;
-        margin-left: 10px;
-        font-size: 12px;
-    }
-
-    .vivid-post-homepage-view .vivid-product-old-price {
-        font-size: 12px;
-    }
-
-    .vivid-post-homepage-view .vivid-product-current-price {
-        font-size: 18px;
-    }
-
-    .product-price {
-        margin: 5px;
-        margin-top: 0px;
-        margin-left: 10px;
-    }
-
-    .vivid-post-homepage-view .vivid-variants-container .group-1 span,
-    .vivid-post-homepage-view .vivid-variants-container .group-3 span {
-        height: 15px;
-        width: 15px;
-    }
-
-    .vivid-post-homepage-view .add-to-cart {
-        padding: 6px 22px;
-    }
-
-    .vivid-separate-actions .home-post-sale,
-    .vivid-separate-actions .home-post-brand {
-        top: -223px;
-    }
-
-    .vivid-separate-actions .homepage-badge-container {
-        top: -200px;
-    }
-
-    .vivid-product-badge {
-        font-size: 9px;
-    }
-
-    .vivid-separate-actions .vivid-product-sale {
-        padding: 3px 8px;
-        font-size: 9px;
-    }
-
-    .home-post-brand .vivid-brand-image {
-        height: 12px;
-        width: 50px;
-    }
-
-
     /*--------------------Back to Top-----------------*/
 
     .back-to-top {
@@ -890,7 +808,7 @@
         bottom: 85px;
     }
 
-    #VividHeaderSlider .slider-left h4 {
+    #VividHeaderSlider .slider-left h1 {
         font-size: 11px;
         padding: 4px 10px;
         margin-bottom: 5px;
@@ -1072,77 +990,6 @@ bottom: 25px;
         border-radius: 3px;
     }
 
-    /*-------------------------Product-------------------*/
-    .vivid-post-homepage-view .post-outer:hover .product-details {
-        bottom: 15px;
-    }
-
-    .vivid-post-homepage-view .hentry {
-        height: 260px;
-    }
-
-    .vivid-post-homepage-view .vivid-product-old-price {
-        font-size: 8px;
-    }
-
-    .vivid-post-homepage-view .vivid-product-current-price {
-        font-size: 12px;
-    }
-
-    .vivid-post-homepage-view .in-stock::before,
-    .vivid-post-homepage-view .out-of-stock::before {
-        font-size: 15px;
-    }
-
-    .vivid-post-homepage-view .in-stock {
-        font-size: 10px !important;
-        width: 30px !important;
-    }
-
-    .vivid-post-homepage-view .out-of-stock {
-        font-size: 10px !important;
-        width: 38px !important;
-    }
-
-    .vivid-homepage-main-slider,
-    .vivid-homepage-main-slider .swiper-wrapper,
-    .vivid-homepage-main-slider .swiper-slide {
-        height: 190px;
-    }
-
-    .vivid-post-homepage-view .post-outer:hover .product-footer {
-        height: 25px;
-    }
-
-    .vivid-post-homepage-view .add-to-cart {
-        padding: 4px 18px;
-        font-size: 8px;
-    }
-
-    .vivid-post-homepage-view .vivid-add-to-wishlist {
-        font-size: 14px;
-    }
-
-    .vivid-post-homepage-view .product-title,
-    .product-price {
-        margin: 1px;
-    }
-
-    .vivid-post-homepage-view .vivid-variants-container .group-1 span,
-    .vivid-post-homepage-view .vivid-variants-container .group-3 span {
-        height: 10px;
-        width: 10px;
-    }
-
-    .vivid-separate-actions .home-post-sale,
-    .vivid-separate-actions .home-post-brand {
-        top: -195px;
-    }
-
-    .vivid-separate-actions .homepage-badge-container {
-        top: -170px;
-    }
-
     /*------------------Slider------------------*/
 
     #VividHeroSection {
@@ -1159,7 +1006,7 @@ bottom: 25px;
         bottom: 70px;
     }
 
-    #VividHeaderSlider .slider-left h4 {
+    #VividHeaderSlider .slider-left h1 {
         font-size: 10px;
         padding: 3px 8px;
     }
@@ -1866,108 +1713,6 @@ bottom: 25px;
         max-height: 270px;
     }
 
-    /*---------------------Products------------------*/
-
-    .vivid-post-homepage-view {
-        grid-template-columns: 1fr;
-    }
-
-    .vivid-post-homepage-view .post-outer {
-        max-width: 260px;
-        margin: auto;
-    }
-
-    .vivid-post-homepage-view .hentry {
-        height: 360px;
-    }
-
-    .vivid-homepage-main-slider,
-    .vivid-homepage-main-slider .swiper-wrapper,
-    .vivid-homepage-main-slider .swiper-slide {
-        height: 260px;
-    }
-
-    .vivid-post-homepage-view .vivid-variants-container .group-2 span {
-        padding: 4px 8px;
-        font-size: 8px;
-        height: 10px;
-    }
-
-    .vivid-post-homepage-view .vivid-variants-container .group-1 span,
-    .vivid-post-homepage-view .vivid-variants-container .group-3 span {
-        height: 20px;
-        width: 20px;
-    }
-
-    .vivid-post-homepage-view .vivid-variants-container .clear-btn {
-        height: 22px;
-        width: 44px;
-        font-size: 9px;
-    }
-
-    .vivid-post-homepage-view .product-title {
-        margin: 5px;
-        margin-left: 10px;
-        font-size: 15px;
-    }
-
-    .vivid-post-homepage-view .vivid-product-old-price {
-        font-size: 12px;
-    }
-
-    .vivid-post-homepage-view .vivid-product-current-price {
-        font-size: 16px;
-    }
-
-    .product-price {
-        margin: 0px 10px;
-    }
-
-    .vivid-post-homepage-view .in-stock::before,
-    .vivid-post-homepage-view .out-of-stock::before {
-        font-size: 25px;
-    }
-
-    .vivid-post-homepage-view .in-stock {
-        font-size: 12px !important;
-        width: 40px !important;
-    }
-
-    .vivid-post-homepage-view .out-of-stock {
-        font-size: 12px !important;
-        width: 50px !important;
-    }
-
-    .vivid-separate-actions .home-post-sale,
-    .vivid-separate-actions .home-post-brand {
-        top: -265px;
-    }
-
-    .vivid-separate-actions .homepage-badge-container {
-        top: -240px;
-    }
-
-    .vivid-post-homepage-view .post-outer:hover .product-footer {
-        height: 35px;
-    }
-
-    .vivid-post-homepage-view .add-to-cart {
-        padding: 8px 28px;
-        font-size: 10px;
-    }
-
-    .vivid-post-homepage-view .vivid-add-to-wishlist {
-        font-size: 20px;
-    }
-
-    .product-details {
-        margin-top: -10px;
-    }
-
-    .vivid-post-homepage-view .post-outer:hover .product-details {
-        bottom: 40px;
-    }
-
     /* ----------------Brand Products----------------- */
 
     #VividBrandProducts .brand-product-item {
@@ -2281,7 +2026,7 @@ bottom: 25px;
         bottom: 60px;
     }
 
-    #VividHeaderSlider .slider-left h4 {
+    #VividHeaderSlider .slider-left h1 {
         font-size: 9px;
         padding: 2px 6px;
     }
@@ -2550,6 +2295,7 @@ bottom: 25px;
     }
 }
 
+/* Responsive styles for 567px breakpoint */
 @media screen and (max-width: 567px) {
     .back-to-top {
         width: 50px;
@@ -2586,3 +2332,17 @@ bottom: 25px;
         stroke-dashoffset: 113;
     }
 }
+
+  @font-face {
+    font-family: "Font Awesome 6 Free";
+    font-display: swap !important;
+  }
+  @font-face {
+    font-family: "Font Awesome 6 Brands";
+    font-display: swap !important;
+  }
+  @font-face { 
+    font-family: "Bootstrap Icons";
+    font-display: swap !important; 
+  }
+
